@@ -1,5 +1,5 @@
 import java.util.*;
-class uri1064{
+class uri1065{
     public static double[] readArray(int n){
         Scanner scan = new Scanner(System.in);
         double[] array = new double[n];
