@@ -1,5 +1,5 @@
 import java.util.*;
-class uri1079{
+class uri1080{
     //função para ler o array
     public static int[] readArray(int n){
         Scanner scan = new Scanner(System.in);
