@@ -1,5 +1,5 @@
 import java.util.*;
-class uri1541{
+class uri1589{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt(), r1, r2; 
