@@ -1,11 +1,11 @@
 import java.util.Scanner;
-class uri1003{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		int A, B, SOMA;
-		A = scan.nextInt();
-		B = scan.nextInt();
-		SOMA = A + B;
-		System.out.print("SOMA = " + SOMA + "\n");
+		int a, b, s;
+		a = scan.nextInt();
+		b = scan.nextInt();
+		s = a + b;
+		System.out.println("SOMA = " + s);
 	}
 }
