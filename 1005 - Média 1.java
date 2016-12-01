@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class uri1005{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		double a, b, med;
