@@ -1,11 +1,11 @@
 import java.util.Scanner;
-class uri1004{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		int A, B, PROD;
-		A = scan.nextInt();
-		B = scan.nextInt();
-		PROD = A * B;
-		System.out.print("PROD = " + PROD + "\n");
+		int a, b, p;
+		a = scan.nextInt();
+		b = scan.nextInt();
+		p = a * b;
+		System.out.print("PROD = " + p + "\n");
 	}
 }
