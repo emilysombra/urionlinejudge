@@ -7,7 +7,7 @@ class Main{
 		b = scan.nextInt();
 		c = scan.nextInt();
 		d = scan.nextInt();
-		dif = (a * )b - (c * d);
+		dif = (a * b) - (c * d);
 		System.out.println("DIFERENCA = " + dif);
 	}
 }
