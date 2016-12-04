@@ -1,14 +1,12 @@
 import java.util.Scanner;
-class uri1006{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		double A, B, C, MEDIA;
-		A = scan.nextDouble();
-		B = scan.nextDouble();
-		C = scan.nextDouble();
-		MEDIA = ((A * 2) + (B * 3) + (C * 5))/10;
-		System.out.print("MEDIA = ");
-		System.out.printf("%.1f", MEDIA);
-		System.out.print("\n");
+		double a, b, c, med;
+		a = scan.nextDouble();
+		b = scan.nextDouble();
+		c = scan.nextDouble();
+		med = ((a * 2) + (b * 3) + (c * 5))/10;
+		System.out.printf("MEDIA = %.1f\n", med);
 	}
 }
