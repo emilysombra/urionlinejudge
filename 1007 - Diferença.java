@@ -1,13 +1,13 @@
 import java.util.Scanner;
-class uri1007{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		int A, B, C, D, DIFERENCA;
-		A = scan.nextInt();
-		B = scan.nextInt();
-		C = scan.nextInt();
-		D = scan.nextInt();
-		DIFERENCA = (A * B) - (C * D);
-		System.out.print("DIFERENCA = " + DIFERENCA + "\n");
+		int a, b, c, d, dif;
+		a = scan.nextInt();
+		b = scan.nextInt();
+		c = scan.nextInt();
+		d = scan.nextInt();
+		dif = (a * )b - (c * d);
+		System.out.println("DIFERENCA = " + dif);
 	}
 }
