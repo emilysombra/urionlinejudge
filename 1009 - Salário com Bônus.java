@@ -1,15 +1,13 @@
 import java.util.Scanner;
-class uri1009{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		String name;
-		double salary, sales;
-		name = scan.next();
-		salary = scan.nextDouble();
-		sales = scan.nextDouble();
-		salary = salary + (sales * 0.15);
-		System.out.print("TOTAL = R$ ");
-		System.out.printf("%.2f", salary);
-		System.out.print("\n");
+		String nome;
+		double sal, vendas;
+		nome = scan.next();
+		sal = scan.nextDouble();
+		vendas = scan.nextDouble();
+		sal += (vendas * 0.15);
+		System.out.printf("TOTAL = R$ %.2f\n", sal);
 	}
 }
