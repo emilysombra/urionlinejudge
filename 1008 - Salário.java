@@ -1,16 +1,14 @@
 import java.util.Scanner;
-class uri1008{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		int num, hours;
-		double salary;
+		int num, h;
+		double sal;
 		num = scan.nextInt();
-		hours = scan.nextInt();
-		salary = scan.nextDouble();
-		salary = salary * hours;
+		h = scan.nextInt();
+		sal = scan.nextDouble();
+		sal *= h;
 		System.out.println("NUMBER = " + num);
-		System.out.print("SALARY = U$ ");
-		System.out.printf("%.2f", salary);
-		System.out.print("\n");
+		System.out.printf("SALARY = U$ %.2f\n", sal);
 	}
 }
