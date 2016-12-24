@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class uri1012{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		double a, b, c, areaTri, areaCirc, areaTrap, areaQuad, areaRet;
@@ -12,24 +12,10 @@ class uri1012{
 		areaQuad = b * b;
 		areaRet = a * b;
 		
-		System.out.print("TRIANGULO: ");
-		System.out.printf("%.3f", areaTri);
-		System.out.print("\n");
-
-		System.out.print("CIRCULO: ");
-		System.out.printf("%.3f", areaCirc);
-		System.out.print("\n");
-
-		System.out.print("TRAPEZIO: ");
-		System.out.printf("%.3f", areaTrap);
-		System.out.print("\n");
-
-		System.out.print("QUADRADO: ");
-		System.out.printf("%.3f", areaQuad);
-		System.out.print("\n");
-
-		System.out.print("RETANGULO: ");
-		System.out.printf("%.3f", areaRet);
-		System.out.print("\n");
+		System.out.printf("TRIANGULO: %.3f\n", areaTri);
+		System.out.print("CIRCULO: %.3f\n", areaCirc);
+		System.out.print("TRAPEZIO: %.3f\n", areaTrap);
+		System.out.print("QUADRADO: %.3f\n", areaQuad);
+		System.out.print("RETANGULO: %.3f\n", areaRet);
 	}
 }
