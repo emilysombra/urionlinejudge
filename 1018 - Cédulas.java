@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class uri1018{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		int valor, qtd100, qtd50, qtd20, qtd10, qtd5, qtd2, qtd1;
