@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class uri1019{
+class Main{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		int tempo, horas, min, seg;
@@ -7,6 +7,6 @@ class uri1019{
 		horas = tempo/3600;
 		min = (tempo%3600)/60;
 		seg = tempo%60;
-		System.out.print(horas + ":" + min + ":" + seg + "\n");
+		System.out.println(horas + ":" + min + ":" + seg);
 	}
 }
