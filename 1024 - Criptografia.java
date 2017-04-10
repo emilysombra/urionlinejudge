@@ -1,5 +1,5 @@
 import java.util.*;
-class uri1024{
+class Main{
     public static String crip1(String msg){
         StringBuilder bodybuilder = new StringBuilder();
         for(int i = 0; i<msg.length(); i++){
@@ -31,9 +31,9 @@ class uri1024{
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         String s[] = new String[n+1];
-        for(int i = 0; i<s.length; i++)
+        for(int i = 0; i < s.length; i++)
             s[i] = scan.nextLine();
-        for(int i = 1; i<s.length; i++)
-            System.out.print(crip2(crip1(s[i])) + "\n");
+        for(int i = 1; i < s.length; i++)
+            System.out.println(crip2(crip1(s[i])));
     }
 }
