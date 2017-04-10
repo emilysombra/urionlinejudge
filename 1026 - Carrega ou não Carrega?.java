@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class uri1026{
+public class Main{
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 	static long[] getNums(String line, int qtd){
