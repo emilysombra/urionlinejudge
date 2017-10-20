@@ -1,19 +1,39 @@
-#Problema atual: 1168
+#Problema atual: 1024
 #Categoria: Strings
 
-n = int(input())
+def crip1(str):
+	crip = ""
+	for c in str:
+		if(c.isalpha()):
+			cod = ord(c)
+			cod += 3
+			crip += chr(cod)
+		else:
+			crip += c
+	
+	return "".join(reversed(crip))
 
+def crip2(str):
+	crip = ""
+	for i in range(len(str)):
+		c = str[i]
+		if(i >= len(str)/2 and len(str) % 2 == 0):
+			c = ord(c) - 1
+			c = chr(c)
+		elif(i >= len(str)/2 -1 and len(str) % 2 != 0):
+			c = ord(c) - 1
+			c = chr(c)
+
+		crip += c
+
+	return crip
+	
+#solução:
+n = int(input())
 while(n > 0):
     entrada = input()
-    leds = 0
-    num_leds = [6, 2, 5, 5, 4, 5, 6, 3, 7, 6]
-    algs = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    for c in entrada:
-    	index = 0
-    	for num in algs:
-    		if(c == num):
-    			leds += num_leds[index]
-    			break
-    		index += 1
-    print("{} leds".format(leds))
+    entrada = crip1(entrada)
+    entrada = crip2(entrada)
+
+    print(entrada)
     n -= 1
